@@ -1,0 +1,49 @@
+// Your variable overrides
+$primary: purple;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+html {
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: 'Raleway';
+  src:  url('./fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: url('./images/mushroom.png') 0.5;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin: 0;
+  background: rgba(45, 42, 41, 0.1);
+
+}
+
+body:after {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.2;
+  background-image: url('./images/mushroom.png');
+}
+
+
+.sassi {
+  color: var(--danger);
+}
+
+.sassi2 {
+  color: var(--primary);
+}
