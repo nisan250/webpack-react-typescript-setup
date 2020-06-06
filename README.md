@@ -29,3 +29,5 @@ WEBPACK TYPESCRIPT REACT CONFIGURATION
 * **Prettier code** - using prettier (simple use)
 * **Lint css** - prettier
 
+you can see the example here:
+https://nisan250.github.io/webpack-react-typescript-setup/.
