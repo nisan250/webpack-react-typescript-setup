@@ -29,8 +29,3 @@ WEBPACK TYPESCRIPT REACT CONFIGURATION
 * **Prettier code** - using prettier (simple use)
 * **Lint css** - prettier
 
-TODO
-* **Splitting config file**
-* **Support Csslint**
-* **Support Eslint**
-* **Image optimization**

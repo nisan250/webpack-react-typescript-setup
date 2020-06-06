@@ -1,0 +1,9 @@
+{
+  "name": "Webpack Config",
+  "short_name": "WpConfig",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Example Webpack Config",
+  "background_color": "#ffffff"
+}
